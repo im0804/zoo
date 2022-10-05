@@ -1,6 +1,6 @@
 public class Mammal extends Animal {
-    private int milkkalories;
-    private int pregnancy;
+    protected int milkkalories;
+    protected int pregnancy;
 
     public void setMilkkalories(int milkkalories) {
         this.milkkalories = milkkalories;

@@ -1,5 +1,5 @@
 public class Reptile extends Animal{
-    private double taillength;
+    protected double taillength;
 
     public void setTaillength(double taillength) {
         this.taillength = taillength;

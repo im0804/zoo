@@ -1,5 +1,5 @@
 public class Dairybreeds extends Cow{
-    private double literofmilk;
+    protected double literofmilk;
 
     public void setLiterofmilk(double literofmilk) {
         this.literofmilk = literofmilk;

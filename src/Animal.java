@@ -1,8 +1,8 @@
 public class Animal {
-    private String name;
-    private double age;
-    private boolean istoppredator;
-    private int kalories;
+    protected String name;
+    protected double age;
+    protected boolean istoppredator;
+    protected int kalories;
 
     public void setName(String name) {
         this.name = name;

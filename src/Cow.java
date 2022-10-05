@@ -1,5 +1,5 @@
 public class Cow extends Mammal{
-    private int calving;
+    protected int calving;
 
     public void setCalving(int calving) {
         this.calving = calving;

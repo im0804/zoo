@@ -1,6 +1,6 @@
 public class Bird extends Animal{
-    private double flight;
-    private double wingspan;
+    protected double flight;
+    protected double wingspan;
 
     public void setFlight(double flight) {
         this.flight = flight;

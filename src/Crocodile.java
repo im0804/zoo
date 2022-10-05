@@ -1,5 +1,5 @@
 public class Crocodile extends Reptile{
-    private boolean dentistcare;
+    protected boolean dentistcare;
 
     public void setDentistcare(boolean dentistcare) {
         this.dentistcare = dentistcare;

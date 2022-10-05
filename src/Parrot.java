@@ -1,5 +1,5 @@
 public class Parrot extends Bird{
-    private boolean cantalk;
+    protected boolean cantalk;
 
     public void setCantalk(boolean cantalk) {
         this.cantalk = cantalk;

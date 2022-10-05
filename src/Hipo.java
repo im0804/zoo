@@ -1,5 +1,5 @@
 public class Hipo extends Mammal{
-    private double fat;
+    protected double fat;
 
     public void setFat(double fat) {
         this.fat = fat;

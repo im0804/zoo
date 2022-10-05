@@ -1,5 +1,5 @@
 public class Snake extends Reptile{
-    private boolean poisonous;
+    protected boolean poisonous;
 
     public void setPoisonous(boolean poisonous) {
         this.poisonous = poisonous;
