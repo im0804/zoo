@@ -10,6 +10,11 @@ public class Cow extends Mammal{
     }
 
     @Override
+    public int Eat() {
+        return super.Eat()/4;
+    }
+
+    @Override
     public String toString() {
         return "number of calving: " + calving;
     }

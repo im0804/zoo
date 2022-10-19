@@ -19,6 +19,18 @@ public class Bird extends Animal{
     }
 
     @Override
+    public int Eat() {
+        return super.Eat()/2;
+    }
+    public void Sing(){
+        System.out.println("tzif, tzif tzif, tzif");
+    }
+
+    public void Dance(){
+        System.out.println(this.getName() + " is dancing!!");
+    }
+
+    @Override
     public String toString() {
         return "flight altitude: " + flight +
                 "\n" + "wingspan length: " + wingspan;

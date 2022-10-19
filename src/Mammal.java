@@ -1,4 +1,4 @@
-public class Mammal extends Animal {
+public abstract class Mammal extends Animal {
     protected int milkkalories;
     protected int pregnancy;
 
@@ -16,6 +16,11 @@ public class Mammal extends Animal {
 
     public int getPregnancy() {
         return pregnancy;
+    }
+
+    @Override
+    public int Eat() {
+        return super.Eat() + milkkalories;
     }
 
     @Override

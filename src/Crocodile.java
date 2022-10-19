@@ -10,6 +10,11 @@ public class Crocodile extends Reptile{
     }
 
     @Override
+    public int Eat() {
+        return super.Eat()+10;
+    }
+
+    @Override
     public String toString() {
         return "went through dentist care: " + dentistcare;
     }

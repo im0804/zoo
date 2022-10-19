@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     protected String name;
     protected double age;
     protected boolean istoppredator;
@@ -34,6 +34,10 @@ public class Animal {
 
     public int getKalories() {
         return kalories;
+    }
+
+    public int Eat(){
+        return kalories*3;
     }
 
     @Override

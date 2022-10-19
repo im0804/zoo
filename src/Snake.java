@@ -9,6 +9,10 @@ public class Snake extends Reptile{
         return poisonous;
     }
 
+    public void Dance(){
+        System.out.println(this.getName() + " is dancing!!");
+    }
+
     @Override
     public String toString() {
         return "is it poisonous: " + poisonous;

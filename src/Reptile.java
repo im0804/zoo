@@ -1,4 +1,4 @@
-public class Reptile extends Animal{
+public abstract class Reptile extends Animal{
     protected double taillength;
 
     public void setTaillength(double taillength) {
